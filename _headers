@@ -1,0 +1,5 @@
+# Cloudflare Pages headers.
+# Next static export emits the OG image without a .png extension, so set its type explicitly.
+/opengraph-image
+  Content-Type: image/png
+  Cache-Control: public, max-age=3600
